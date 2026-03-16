@@ -5,6 +5,9 @@
     "mergeConfidence:all-badges"
   ],
 
+  "schedule": ["every 2 weeks on tuesday before 16am"],
+  "timezone": "Europe/Berlin",
+
   "packageRules": [
     {
       "matchDepTypes": ["devDependencies"],  // <-- Matcher
