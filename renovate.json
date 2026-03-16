@@ -10,7 +10,7 @@
   // Anzahl der PRs auf 3 beschränken
   "prConcurrentLimit": 3,
   // PRs werden erst erstellt, wenn die neue Version mind. so alt ist
-  "minimumReleaseAge": "4 days",
+  "minimumReleaseAge": "1 year",
 
   "packageRules": [
     {
