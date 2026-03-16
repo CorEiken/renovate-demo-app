@@ -4,9 +4,13 @@
     "config:recommended",
     "mergeConfidence:all-badges"
   ],
-
-  "schedule": ["every 2 weeks on monday before 4pm"],
+  // every 2 weeks on monday before 4pm
+  "schedule": ["* 0-16 * * 1"],
   "timezone": "Europe/Berlin",
+  // Anzahl der PRs auf 3 beschränken
+  "prConcurrentLimit": 3,
+  // PRs werden erst erstellt, wenn die neue Version mind. so alt ist
+  "minimumReleaseAge": "4 days",
 
   "packageRules": [
     {
