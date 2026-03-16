@@ -11,6 +11,13 @@
       "groupName": "dev dependencies"        // <-- Aktion
     },
     {
+      "matchDepTypes": ["devDependencies"],  // <-- Matcher
+      "matchUpdateTypes": ["patch"],
+      "groupName": "dev dependencies (patch)",
+      "automerge": true,
+      "automergeType": "pr"
+    },
+    {
       "matchPackageNames": ["axios"],
       "enabled": false
     },
